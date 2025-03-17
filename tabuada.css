@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    font-size: 100%;
+    background:linear-gradient(68.15deg, #0e7886 16.62%, #5dddd3 85.61%) ;
+}
+
+.conteudo-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    width: 100%;
+    background:linear-gradient(68.15deg, #0e7886 16.62%, #5dddd3 85.61%) ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.conteudo-principal-escrito {
+    flex: 1;
+    padding: 20px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Sarala', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #0c0e11;
+}
+
+.conteudo-principal-escrito-imagem {
+    width: 250px;
+    height: auto;
+    border-radius: 15px; 
+}
+
+.conteudo-principal-escrito-texto {
+    text-align: center;
+    margin: 15px 0;
+    font-family: 'Sarala', cursive;
+    font-size: 1rem;
+    color: #0c0e10;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Sarala', cursive;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.conteudo-secundario {
+    margin-top: 20px;
+    background:linear-gradient(68.15deg, #0e7886 16.62%, #5dddd3 85.61%) ;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(86, 167, 230, 0.2);
+    text-align: center;
+}
+
+.conteudo-secundario-subtitulo {
+    font-family: 'Sarala', cursive;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input {
+    font-family: 'Sarala', cursive;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #A1C7E0;
+    border-radius: 5px;
+}
+
+.conteudo-secundario-escrito-botao {
+    background-color: #eb3f48;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Sarala', cursive;
+    font-size: 1rem;
+}
+
+.conteudo-secundario-escrito-botao:hover {
+    background-color: #218838;
+}
+
+.tabuadas-container {
+    font-family: 'Sarala', cursive;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 900px;
+    margin-top: 20px;
+}
+
+.tabuada {
+    font-family: 'Sarala', cursive;
+    background: #00ABBD;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 30%;
+    color: rgb(52, 61, 114);
+}

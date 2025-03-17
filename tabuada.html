@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="tabuada.css"> 
+</head>
+<body>
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-titulo">Tabuada</h1>
+                <img class="conteudo-principal-escrito-imagem" src="calculo.img/Cálculo.png" alt="imagem de calculos">
+                <p class="conteudo-principal-escrito-texto">
+                    Esse site foi criado para facilitar a consulta de tabuadas de forma simples e interativa. Basta você inserir um número e, em segundos, você verá a tabuada completa dele, do 1 ao 10. Ideal para estudantes, professores ou qualquer pessoa que precise revisar multiplicações de maneira rápida e prática. Experimente e torne o aprendizado da matemática mais fácil!
+                </p>
+                <h2 class="conteudo-principal-escrito-subtitulo">Insira 3 números diferentes para consultar três tabuadas (1 à 10).</h2>
+            </div>
+            
+        </section>
+    </main>
+    <form class="conteudo-secundario" id="tabuadaForm">
+        <p class="conteudo-secundario-subtitulo">Digite os números:</p>
+        <p>
+            <label class="conteudo-secundaro-numero1" for="inNumero1">Número 1</label>
+            <input class="conteudo-secundaro-numero1" type="number" id="inNumero1" required>
+        </p>
+        <p>
+            <label  class="conteudo-secundaro-numero2" for="inNumero2">Número 2</label>
+            <input class="conteudo-secundaro-numero2" type="number" id="inNumero2" required>
+        </p>
+        <p>
+            <label  class="conteudo-secundaro-numero3" for="inNumero3">Número 3</label>
+            <input class="conteudo-secundaro-numero3"  type="number" id="inNumero3" required>
+        </p>
+        <p>
+            <button class="conteudo-secundario-escrito-botao" type="button" onclick="exibirTabuada()">Exibir Tabuada</button>
+        </p>
+    </form>
+
+    <div class="tabuadas-container">
+        <div class="tabuada" id="tabuada1">
+            <h2>Tabuada 1</h2>
+            <pre id="resultado1"></pre>
+        </div>
+        <div class="tabuada" id="tabuada2">
+            <h2>Tabuada 2</h2>
+            <pre id="resultado2"></pre>
+        </div>
+        <div class="tabuada" id="tabuada3">
+            <h2>Tabuada 3</h2>
+            <pre id="resultado3"></pre>
+        </div>
+    </div>
+
+    <script src="tabuada.js"></script>
+
+</body>
+</html>
